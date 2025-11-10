@@ -1,0 +1,43 @@
+.site-header{
+display: flex;
+justify-content: space-between;
+}
+
+.right-nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style-type: none;
+}
+
+.right-nav-link{
+margin: 0 8px;
+padding: 5px 10px;
+color:rgb(0, 0, 0);
+text-decoration: none;
+font-size: 15px;
+font-weight: 800;
+}
+
+.right-nav-link:hover{
+text-decoration: underline;
+}
+
+.right-nav-link:active{
+color:deeppink;
+}
+
+.cta-link{
+background-color: orange;
+margin: 20px;
+border-radius: 15px;
+}
+
+.bottom-row{
+background-color: black;
+padding: 15px;
+}
+
+.bottom-row-link{
+color: aliceblue;
+}
